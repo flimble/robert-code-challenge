@@ -1,0 +1,18 @@
+{
+  "name": "codechallenge",
+  "version": "1.0.0",
+  "description": "code challenge",
+  "main": "codingchallenge-tests.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  },
+  "scripts": {
+    "test": "test jasmine"
+  },
+  "author": "",
+  "license": "ISC"
+}

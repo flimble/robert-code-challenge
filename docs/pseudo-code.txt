@@ -1,0 +1,4 @@
+Approach: 
+1. Iterate through characters in string, if character doesn't equal previous push to Set of character blocks with count 1
+2. Push to set if set already contains character increment count
+3. foreach key in set get ASCII character value and multiply by character count
