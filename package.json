@@ -8,10 +8,14 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "jasmine": "^2.6.0"
+    "jasmine": "^2.6.0",
+    "jasmine-core": "^2.6.3",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-jasmine": "^1.1.0"
   },
   "scripts": {
-    "test": "test jasmine"
+    "test": "karma start"
   },
   "author": "",
   "license": "ISC"

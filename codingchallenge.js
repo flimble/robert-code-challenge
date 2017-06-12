@@ -2,6 +2,10 @@
 
 
 var uniqueCharacterFragments = s => {
+  if (s === undefined) {
+    throw new Error('input string is undefined');
+  }
+
   let characterSet = new Map(); //[[key, { fragmentCount, asciiCode }]]
   var previousChar;
 
@@ -35,5 +39,5 @@ var sumAsciiValuesForUniqueCharacterFragments  = s => [...uniqueCharacterFragmen
   let result = value.asciiCode * multiplier;
   
   return result;
-}).reduce((acc, curr) => acc + curr);
+}).reduce((acc, curr) => acc + curr, 0);
 
